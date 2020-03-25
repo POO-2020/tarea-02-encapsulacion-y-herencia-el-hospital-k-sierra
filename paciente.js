@@ -7,7 +7,7 @@ export default class Pacientes {
    * @param {Fecha} fechaNacimiento
    * @param {number} numeroTel
    */
-  constructor(nombre, fechaNacimiento, telefono) {
+  constructor({nombre, fechaNacimiento, telefono}) {
     this._nombre = nombre
     this._fechaNacimiento = fechaNacimiento
     this._telefono = telefono
