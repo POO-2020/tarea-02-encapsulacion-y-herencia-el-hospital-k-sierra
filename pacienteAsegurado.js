@@ -1,4 +1,4 @@
-import Paciente from "./paciente.js"
+import Paciente from './paciente.js'
 export default class PacienteAsegurado extends Paciente{
     constructor({nombre, fechaNacimiento, telefono, numeroPoliza, fechaFinVigencia, compañia})
     {
