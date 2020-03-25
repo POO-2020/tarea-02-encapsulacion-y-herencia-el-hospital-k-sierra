@@ -7,7 +7,7 @@ export default class Doctor {
    * @param {number} telefono
    * @param {number} cedula
    */
-  constructor(nombre, especialidad, telefono, cedula) {
+  constructor({nombre, especialidad, telefono, cedula}) {
     this._nombre = nombre
     this._especialidad = especialidad
     this._telefono = telefono
