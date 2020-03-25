@@ -2,7 +2,7 @@ export default class Fecha {
   constructor(fecha){
       this._fecha = fecha
       this._fechaActual = new Date()
-      this._años = Math.floor(((this._fechaActual - this._fecha) / (1000 * 60 * 60 * 24) / 365));
+      this._años = Math.floor(((this._fechaActual - this._fecha) / (1000 * 60 * 60 * 24) / 365))
   }
   getAños(){return this._años}
   getMeses(){return (this._años*12)}
